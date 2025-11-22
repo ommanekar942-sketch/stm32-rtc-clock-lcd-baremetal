@@ -4,11 +4,6 @@
 
 #include "ds13072.h"
 
-#include<stdint.h>
-#include<string.h>
-
-#include "ds1307.h"
-
 
 static void ds1307_i2c_pin_config(void);
 static void ds1307_i2c_config(void);
