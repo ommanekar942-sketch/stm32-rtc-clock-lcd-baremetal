@@ -19,7 +19,7 @@ The microcontroller reads time and date continuously from the DS1307 over I²C a
 
 ---
 
-##  Hardware Used
+## Hardware Used
 
 - STM32F407 Discovery Board (STM32F407G-DISC1)
 - DS1307 RTC Module
@@ -29,30 +29,28 @@ The microcontroller reads time and date continuously from the DS1307 over I²C a
 
 ---
 
-##  Pin Connections
+## Pin Connections
 
-### **DS1307 → STM32F407 (I2C1)**  
-| DS1307 Pin | STM32F407 Pin |
-|------------|----------------|
-| SDA        | PB7 (I2C1 SDA) |
-| SCL        | PB6 (I2C1 SCL) |
-| VCC        | 5V             |
-| GND        | GND            |
+### DS1307 --> STM32F407 (I2C1)
+DS1307 Pin | STM32F407 Pin 
+SDA        --> PB7 (I2C1 SDA) 
+SCL        --> PB6 (I2C1 SCL) 
+VCC        --> 5V  
+GND        --> GND
 
 ---
 
-### **16x2 LCD → STM32F407 (GPIOD)**  
-| LCD Pin | STM32F407 Pin |
-|---------|----------------|
-| RS      | PD0 |
-| RW      | PD1 |
-| EN      | PD2 |
-| D4      | PD3 |
-| D5      | PD4 |
-| D6      | PD5 |
-| D7      | PD6 |
-| VSS     | GND |
-| VDD     | 5V |
-| V0      | Potentiometer (contrast) |
+## 16x2 LCD --> STM32F407 (GPIOD)
+LCD Pin | STM32F407 Pin 
+RS    --> PD0 
+RW    --> PD1 
+EN    --> PD2 
+D4    --> PD3 
+D5    --> PD4 
+D6    --> PD5 
+D7    --> PD6 
+VSS   --> GND 
+VDD   --> 5V 
+V0    --> Potentiometer (contrast) 
 
 ---
